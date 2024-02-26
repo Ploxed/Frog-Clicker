@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html id="html">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Frog Clicker!</title>
+        <h1 class="titleText">FROG CLICKER!</h1>
+    </head>
+    
+    <body>
+        <div class="frogholder">
+            <img class="frog" onclick="HandleClick()" src="frog.png">
+        </div>
+        <p class="frogPointsP" id="frogpoints">FROG POINTS</p>
+        <p class="frogPointsP" id="fpi">Point Increment</p>
+    </body>
+    <button class="resetButton" onclick="DeleteProgress()">RESET/DELETE PROGRESS</button>
+    <button class="upgradeButton" onclick="Upgrade()">UPGRADES!</button>
+    <script src="script.js"></script>
+</html>
